@@ -1,0 +1,8 @@
+<ul>
+  <li ng-repeat="item in narrow.items">
+    <span class="prop">Name: </span>{{item.name}}
+    <span class="prop">Short name: </span>{{item.short_name}}
+    <span class="prop">Description: </span>{{item.description}}
+    <button class="btn btn-info" ng-click="narrow.onRemove({index: $index});">Don't want this one!</button>
+  </li>
+</ul>
