@@ -39,7 +39,6 @@ function NarrowItDownController(MenuSearchService) {
           narrow.items.push(element);
         }
       });
-      console.log(narrow.items);
     })
     .catch(function(error) {
       console.log(error);
